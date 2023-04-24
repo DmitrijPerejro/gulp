@@ -1,0 +1,22 @@
+/* header styling */
+
+.header {
+    text-align: center;
+  }
+  
+  .title {
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  
+  .text {
+    margin: 0 0 20px 20px;
+  }
+  
+  /* main styling */
+  
+  .main {
+    flex-grow: 1;
+  }
+  
