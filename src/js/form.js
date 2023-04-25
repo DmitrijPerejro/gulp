@@ -1,6 +1,4 @@
-import { makeTable } from './table.js';
-
-export function makeForm() {
+function makeForm() {
   const registrationForm = document.querySelector("#form");
   const saveButton = document.querySelector("#btn");
   const header = document.querySelector(".header");
@@ -43,3 +41,5 @@ export function makeForm() {
     makeTable(valuesArr, languagesArr);
   });
 }
+
+makeForm();

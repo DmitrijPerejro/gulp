@@ -1,9 +1,9 @@
-export function makeTable(value, language) {
+function makeTable(value, language) {
   const table = document.querySelector("#table");
   const subtitle = document.createElement("thead");
   table.append(subtitle);
   subtitle.innerHTML = "Ваші дані";
-  subtitle.classList.add('subtitle')
+  subtitle.classList.add("subtitle");
 
   const tr = document.createElement("tr");
   table.append(tr);
